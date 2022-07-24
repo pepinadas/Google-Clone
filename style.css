@@ -13,6 +13,13 @@ a {
 p {
     font-size: 1.6rem;
 }
+button {
+    margin: 10px;
+    margin-top: 30px;
+}
+footer {
+    background-color: rgb(233, 233, 233);
+}
 .img {
     width: 100%;
 }
@@ -63,6 +70,37 @@ p {
     display: flex;
     justify-content: center;
 }
+.ofrecido-por {
+    margin-top: 10px;
+}
 .ofrecido-por > p {
     margin-right: 1rem;
+}
+.Button-Letters {
+    margin: .75rem;
+}
+.footer {
+    margin-top: 564px;
+}
+.first-part-footer {
+    margin-left: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.section-footer {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+.footer-first {
+    display: flex;
+    justify-content: flex-start;
+    width: 1000px;
+}
+.footer-first > a {
+    margin-right: 10px;
+}
+.footer-second > a {
+    margin-right: 10px;
 }
